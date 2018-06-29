@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/start"
+        android:title="Origin"
+        android:icon="@drawable/ic_start"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/collect"
+        android:title="@string/title_activity_collect"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/chart"
+        android:title="@string/title_activity_chart"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/line_chart"
+        android:title="@string/title_activity_line_chart"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/bubble_chart"
+        android:title="@string/title_activity_bubble"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/adaptive"
+        android:title="Adaptive"
+        android:icon="@drawable/adaptive"
+        app:showAsAction="always"/>
+
+</menu>

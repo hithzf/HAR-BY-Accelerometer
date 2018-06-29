@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/classify"
+        android:title="Classify"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/add_train"
+        android:title="Add train set"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/clear"
+        android:title="Clear"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/statics"
+        android:icon="@drawable/statics"
+        android:title="Statics"
+        app:showAsAction="always"/>
+
+</menu>

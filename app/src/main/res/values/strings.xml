@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Recognition</string>
+
+    <string name="title_activity_recognition">识别结果</string>
+
+    <string name="title_activity_main">活动识别</string>
+
+    <string name="title_activity_collect">采集数据</string>
+
+    <string name="title_activity_chart">活动构成</string>
+
+    <string name="title_activity_detail">详情</string>
+
+    <string name="title_activity_line_chart">历史活动</string>
+
+    <string name="title_activity_statics">性能数据</string>
+
+    <string name="title_activity_bubble">聚类分析</string>
+</resources>

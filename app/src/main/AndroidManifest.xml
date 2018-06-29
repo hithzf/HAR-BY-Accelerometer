@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.hzf.recognition">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.MEDIA_CONTENT_CONTROL" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.RESTART_PACKAGES" />
+
+    <application
+        android:name=".common.MyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/monitor"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/title_activity_main"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".RecognitionActivity"
+            android:label="@string/title_activity_recognition" />
+        <activity
+            android:name=".CollectActivity"
+            android:label="@string/title_activity_collect"></activity>
+
+        <service
+            android:name=".sample.SensorCollectService"
+            android:enabled="true"
+            android:exported="true" />
+
+        <activity
+            android:name=".DetailActivity"
+            android:label="@string/title_activity_detail" />
+
+        <service
+            android:name=".sample.AdaptiveService"
+            android:enabled="true"
+            android:exported="true" />
+        <service
+            android:name=".sample.OriginService"
+            android:enabled="true"
+            android:exported="true" />
+
+        <activity
+            android:name=".ChartActivity"
+            android:label="@string/title_activity_chart" />
+        <activity
+            android:name=".LineChartActivity"
+            android:label="@string/title_activity_line_chart" />
+        <activity
+            android:name=".StaticsActivity"
+            android:label="@string/title_activity_statics" />
+        <activity android:name=".BubbleActivity"
+            android:label="@string/title_activity_bubble"/>
+    </application>
+
+</manifest>
