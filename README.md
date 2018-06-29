@@ -10,17 +10,17 @@ This Android APP can be used to collect human motion data and recognize human da
 
 ### File structure of 'ARecognition.zip'
 >`ARecognition`
->>`battery.txt` Record battery power
->>`center20.txt` The center point of each category when sampling freq is 20 Hz
->>`center50.txt` The center point of each category when sampling freq is 50 Hz
->>`cluster.txt` Clustering result
->>`feature20.txt` Training data when sampling freq is 20 Hz
->>`feature50.txt` Training data when sampling freq is 50 Hz
->>`model20.txt` SVM model when sampling freq is 20 Hz
->>`model50.txt` SVM model when sampling freq is 50 Hz
->>`norm20.txt` Normalized parameters when sampling freq is 20 Hz
->>`norm50.txt` Normalized parameters when sampling freq is 50 Hz
->>`result.txt` SVM classification result
->>`test.txt` SVM classification feature vector
->>`threshold20_50per.txt` Pre-classification threshold
->>`threshold20_90per.txt` Pre-classification threshold
+>>`battery.txt` Record battery power <br/>
+>>`center20.txt` The center point of each category when sampling freq is 20 Hz <br/>
+>>`center50.txt` The center point of each category when sampling freq is 50 Hz <br/>
+>>`cluster.txt` Clustering result <br/>
+>>`feature20.txt` Training data when sampling freq is 20 Hz <br/>
+>>`feature50.txt` Training data when sampling freq is 50 Hz <br/>
+>>`model20.txt` SVM model when sampling freq is 20 Hz <br/>
+>>`model50.txt` SVM model when sampling freq is 50 Hz <br/>
+>>`norm20.txt` Normalized parameters when sampling freq is 20 Hz <br/>
+>>`norm50.txt` Normalized parameters when sampling freq is 50 Hz <br/>
+>>`result.txt` SVM classification result <br/>
+>>`test.txt` SVM classification feature vector <br/>
+>>`threshold20_50per.txt` Pre-classification threshold <br/>
+>>`threshold20_90per.txt` Pre-classification threshold <br/>
